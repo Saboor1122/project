@@ -1,0 +1,56 @@
+.insight {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+    color: white;
+
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.right h1 {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    width: 442px;
+    height: 118px;
+    line-height: 58.59px;
+    text-align: left;
+}
+
+.right p {
+    font-family: Roboto;
+    width: 469px;
+    height: 120px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+}
+
+.left {
+    width: 585px;
+    height: 311px;
+    top: 1731px;
+    left: 752px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px 0px 0px 0px;
+     background: rgba(28, 113, 92, 1);
+}
+.left img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.left img{
+    width: 585px;
+    height: 311px;
+    top: 1731px;
+    left: 752px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px 0px 0px 0px;
+    transition: 0.3s;
+}

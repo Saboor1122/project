@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    color: white;
+    border: 10px 10px 10px 10px;
+}
+
+.container-top {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35.16px;
+    text-align: center;
+}
+
+.container-bottom {
+    margin-top: 20px;
+}
+
+.container-bottom ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.container-bottom ul li {
+    list-style: none;
+}

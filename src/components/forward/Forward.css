@@ -1,0 +1,91 @@
+.forward {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 200px;
+}
+
+.forward-top h1 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 58.59px;
+    text-align: center;
+    width: 637.94px;
+    height: 118px;
+}
+
+.forward-top h5 {
+    margin-top: 20px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 29.3px;
+    text-align: center;
+    width: 549px;
+    height: 29px;
+}
+.forward-bottom{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.start{
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195px;
+    height: 64px;
+    top: 459px;
+    left: 551px;
+    gap: 10px;
+    border-radius: 20px 20px 20px 20px;
+    background: #00FFA7;
+    transition: 0.3s;
+}
+.start p{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: left;
+    background: transparent;
+}
+.f-contact{
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195px;
+    height: 64px;
+    top: 459px;
+    left: 766px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+    border: 3px solid #00FFA7;
+    transition: 0.3s;
+}
+.f-contact p{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+     color: #00FFA7; 
+}
+.start:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.f-contact:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}

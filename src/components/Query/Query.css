@@ -1,0 +1,70 @@
+.query {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-top: 200px;
+}
+
+.query-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.query-left h1 {
+    width: 457px;
+    height: 188px;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.88px;
+    text-align: left;
+}
+.contact p{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: left;
+    background: transparent;
+}
+.contact {
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195px;
+    height: 64px;
+    top: 459px;
+    left: 551px;
+    gap: 10px;
+    border-radius: 20px 20px 20px 20px;
+    background: #00FFA7;
+    transition: 0.3s;
+    outline: none;
+}
+.contact:hover{
+transform: scale(1.1);
+transition: 0.3s;
+}
+.query-right{
+    width: 661px;
+height: 352px;
+border-radius: 10px 10px 10px 10px;
+background: #1C715c;
+border: 1px solid rgba(0, 255, 167, 1);
+}
+.query-right img{
+    width: 661px;
+    height: 352px;
+    top: 1731px;
+    left: 752px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px 0px 0px 0px;
+    transition: 0.3s;
+}
+.query-right img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}

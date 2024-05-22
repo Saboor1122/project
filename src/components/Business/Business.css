@@ -1,0 +1,38 @@
+.business {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 200px;
+    align-items: center;
+    gap: 50px;
+    opacity: 0; 
+    transform: translateY(50px); 
+    transition: opacity 2s ease, transform 2s ease;
+}
+
+.classes h1 {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32.81px;
+    text-align: left;
+    width: 268px;
+    height: 33px;
+}
+
+.classes p {
+    color:  rgba(255, 255, 255, 1);
+    margin-top: 40px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 23.44px;
+    text-align: left;
+    width: 306px;
+    height: 184px;
+}
+.business.animate {
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+

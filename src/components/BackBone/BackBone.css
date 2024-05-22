@@ -1,0 +1,35 @@
+.backbone {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.bone-top {
+    width: 367px;
+    height: 104px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 52.73px;
+    text-align: center;
+}
+
+.bone-middle {
+    margin-top: 20px;
+    width: 502px;
+    height: 90px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+.bone-bottom{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
